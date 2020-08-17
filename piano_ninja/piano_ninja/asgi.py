@@ -1,5 +1,5 @@
 """
-ASGI config for piano_ninjia project.
+ASGI config for piano_ninja project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'piano_ninjia.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'piano_ninja.settings')
 
 application = get_asgi_application()

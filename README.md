@@ -1,4 +1,4 @@
-# piano-ninjia
+# piano-ninja
 
 Django powered website to display piano listing information.
 
