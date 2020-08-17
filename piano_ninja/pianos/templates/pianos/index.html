@@ -1,0 +1,12 @@
+
+<h1>The list of pianos</h1>
+
+{% if all_pianos %}
+    <ul>
+    {% for piano in all_pianos %}
+        <li><a href="/pianos/{{ piano.id }}/">{{ piano.title }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No pianos are available.</p>
+{% endif %}
