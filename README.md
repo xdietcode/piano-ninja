@@ -16,6 +16,8 @@ python manage.py shell
 >>>Pianos.objects.using("pianos").all() 
 ```
 
-## Usage
-```bash
-```
+---
+The rest part of project can be found here:
+
+[piano-spider](https://github.com/xdietcode/piano-spider)
+
